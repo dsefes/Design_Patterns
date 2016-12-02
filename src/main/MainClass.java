@@ -10,6 +10,7 @@ public class MainClass {
 		    new Word("мою"), new Sign(' '),
 		    new Word("архитектуру"), new Sign('!'));
 		txt.print(new PrinterDefault());
+		txt.print(new PrinterSpecial());
 	}
 
 }
